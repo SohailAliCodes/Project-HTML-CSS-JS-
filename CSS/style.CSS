@@ -1,0 +1,201 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image:  linear-gradient(rgba(0,0,0.8,0.4),rgba(0,0,0.8,0.4 )), url(../IMG/bg2.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+footer{
+	background-color:  #4C4C4C;
+	height: 10vh;
+	background-size: cover;
+	background-position: center;
+	padding: 10px 15px;
+}
+
+p{
+	padding: 10px 90px;
+	color: 424242;
+	font-family: system-ui;
+	text-align: center-left;
+	font-size: 18px;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li.active a{
+	background-color: #4EC8D0;
+	color: #fff;	
+}
+
+ul li a:hover{
+	background-color: #4EC8D0;
+	color: #fff;	
+}
+
+.logo img{
+	float: left;
+	height: auto;
+	width: 120;
+	padding: 10px 5px;
+}
+
+.main{
+	max-width: 1000px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.title h1{
+	color: #fff;
+	font-size: 70px;
+}
+
+.button{
+	position: absolute;
+	top: 68%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.btn:hover{
+	background-color: #4EC8D0;
+	color: #fff;	
+	border-color: #4EC8D0
+}
+
+.heading{
+	padding: 20px 60px;
+	background-color: #f2f2f2;
+}
+
+.heading p{
+	color: #4EC8D0;
+	font-family: system-ui;
+	font-size: 40px;
+	text-align: center;
+}
+
+.sub{
+	padding: 30px 0px;
+}
+.sub p{
+	color: 424242;
+	font-family: system-ui;
+	text-align: left;
+	font-size: 35px;
+}
+
+.container {
+	position: relative;
+	font-family:Century Gothic;
+}
+
+/* Bottom right text */
+.text-block {
+	position: absolute;
+	background-color: transparent;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	bottom: 40%;
+	right:36%;
+	font-size: 70px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+	border: 85px solid transparent;
+}
+
+th, td {
+	text-align: center-left;
+	padding: 20px 15px;
+	font-family: system-ui;
+	font-size: 18;
+}
+
+tr:nth-child(odd) 
+{background-color: #f2f2f2;}
+
+th {
+	font-size: 30px;
+	background-color: #fff;
+	color: #4EC8D0;
+	font-family: system-ui;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4EC8D0;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: white;
+  color: #4EC8D0;
+}
+
+/* Add a background color and some padding around the form */
+.container1{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 50px;
+  	font-family: system-ui;
+	font-size: 18px;
+}
